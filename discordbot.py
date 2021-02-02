@@ -22,5 +22,9 @@ async def あけおめ(ctx):
 async def ping(ctx):
     await ctx.send('pong')
 
-
+@bot.command()
+async def 今月いくら課金したん？(ctx):
+    await ctx.send('ソレハ…イエナイ……')
+    
+   
 bot.run(token)
